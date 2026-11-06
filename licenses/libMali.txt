@@ -1,0 +1,9 @@
+ARM Mali-400 user-space driver (libMali.so, r6p2-01rel0, fbdev, armhf)
+=====================================================================
+
+glos/lib/libMali.so is ARM's GLES 2.0 / EGL driver for the Mali-400, a
+proprietary binary by ARM Limited, not part of this port's own code. It is
+ARM's r6p2-01rel0 fbdev build with one byte changed: the PT_GNU_STACK flags
+no longer ask for an executable stack, which glibc 2.41 and newer refuse to
+load. The kernel driver beside it (glos/mali.ko) is ARM's GPL-2.0 source,
+built for goodluckOS: see goodluckOS-mali-driver.

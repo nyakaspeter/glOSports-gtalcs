@@ -1,0 +1,6 @@
+[Entry]
+CATEGORY=Games
+NAME=Grand Theft Auto: Liberty City Stories
+DESCRIPTION=Running natively via Rockstar's Android build
+COMMAND=/home/player/ports/gtalcs/start.sh
+ICON=/home/player/ports/gtalcs/icon.png

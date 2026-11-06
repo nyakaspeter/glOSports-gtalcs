@@ -1,0 +1,15 @@
+upstream/
+build/
+out/
+gamedata/
+
+# Release zips and description, uploaded as GitHub releases (the -full zips hold game files)
+release/
+
+# Not published: game files and anything extracted or converted from them,
+# build output, caches from a device, upstream checkouts, release zips
+/build-*/
+/out-*/
+/game/
+__pycache__/
+.DS_Store
