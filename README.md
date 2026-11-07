@@ -245,6 +245,11 @@ on the console (`glos/testing/`), `testing-clean.sh gtalcs` takes them off,
 `stackscan` there gives the return addresses into the game on each thread's
 stack: where each thread waits.
 
+## Licence
+
+The port's own code is MIT (`LICENSE`); `package.sh` puts a copy into the game folder's
+`licenses/`. Third-party code it carries keeps its own licence (below).
+
 ## Third-party components
 
 Code carried over from the Vita loaders it names keeps their MIT notices;

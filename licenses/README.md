@@ -12,4 +12,6 @@ The port builds on and ships with:
 | ARM's Mali user-space driver (`glos/lib/libMali.so`) | ARM proprietary | `libMali.txt` |
 | ARM's Mali kernel driver (`glos/mali.ko`) | GPL-2.0 | goodluckOS-mali-driver |
 
+The port's own code is MIT (`LICENSE.txt`, the repo's `LICENSE`).
+
 The game itself is not included: its files come from your own copy.
