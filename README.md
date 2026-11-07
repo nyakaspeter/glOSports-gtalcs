@@ -21,7 +21,7 @@ From your own install of the Android game (package
 
 | From | Version | In `game/` as |
 |---|---|---|
-| the `.apk` | the one with `libGTALcs.so` of 2016-07-15, md5 `9c1fd961…` | `libGTALcs.so` (from `lib/armeabi-v7a/`) and `assets/` |
+| the `.apk` | version 2.2 (`libGTALcs.so` of 2016-07-15, md5 `9c1fd961…`) | `libGTALcs.so` (from `lib/armeabi-v7a/`) and `assets/` |
 | `main.17.com.rockstargames.gtalcs.obb` and `patch.15.com.rockstargames.gtalcs.obb` | 17, 15 | `files/`: unpacked (below) |
 | the `.apk`'s `res/raw/intro.m4v` | | `Movies/LCS_INTRO_1080.m4v`, converted (`tools/movies.sh intro.m4v`, below; optional) |
 | the `.apk`'s `res/raw/` | | `loading_screen_1.png` … `_4.png`, `hud_loadbar.png`, `hud_loadbar_small.png`, `hud_loadbarprogress.png`, `hud_loadbarprogress_small.png` (the loading screen) |
