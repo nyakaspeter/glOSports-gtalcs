@@ -506,7 +506,7 @@ static void *trampoline(const char *name, uint32_t first, uint32_t second)
 }
 
 /* The game's files, unpacked: game/files/ holds what main.obb and
- * patch.obb would (the patch's over the main's; glOSports-gtavcs's tools/unpack.py), so a
+ * patch.obb would (the patch's over the main's; tools/unpack.py), so a
  * change is a file copied, not an OBB rebuilt and sent. Every file the
  * game opens by name goes through LogicalFS_OpenBundleFile, which looks
  * in each mounted WAD; here game/files/<name> comes first, opened as the

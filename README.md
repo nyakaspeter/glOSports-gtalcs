@@ -32,7 +32,7 @@ They are the game's own encrypted WAD archives (not zips). Unpacked once into
 `files/<name>` for every file it asks for (`patch_unpacked_files` in
 `loader/game.c`; the console's HOME is vfat, so names match in any case):
 
-    glOSports-gtavcs/tools/unpack.py files libGTALcs.so glOSports-gtavcs/tools/lcs-names.txt -- main.17.….obb patch.15.….obb
+    tools/unpack.py files libGTALcs.so tools/lcs-names.txt -- main.17.….obb patch.15.….obb
 
 The OBBs keep hashes only; `unpack.py` recovers the names (the texture
 mapping, `libGTALcs.so`'s strings and formats, names in the unpacked files,
