@@ -6,7 +6,7 @@ the game's own `libGTALcs.so` (armeabi-v7a, ARM code), resolves its imports
 to goodluckOS's glibc, ARM's Mali GLES 2.0 driver (from the folder's `glos/`,
 see `goodluckOS-mali-driver`), OpenAL Soft and SDL's pad, answers its Java calls
 through a fake JNI, and runs it. The loader core is carried over from
-`glOSports-gtavc`. (`glOSports-lcsrecomp` runs the PSP game as a
+`glOSports-gtavc`. (`glOSports-gtalcs-psp` runs the PSP game as a
 recompilation instead.) The console stays stock goodluckOS.
 
 Status: runs on the GA36-MB: straight to the main menu, new
